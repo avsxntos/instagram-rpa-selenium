@@ -148,7 +148,7 @@ Este arquivo contém toda a lógica do Selenium.
 
 #### `InstagramScraper.__init__`
 
-- Cria um objeto `webdriver.ChromeOptions()`.
+- Cria um objeto `webdriver.ChromeOptions()`
 - Adiciona `--start-maximized` para abrir o Chrome maximizado.
 - Adiciona `--user-data-dir=C:\selenium\instagram_profile` para usar um perfil de usuário Chrome persistente. Isso mantém login salvo entre execuções.
 - Cria o driver Chrome usando `ChromeDriverManager().install()` para baixar o driver automaticamente.

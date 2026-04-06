@@ -37,7 +37,7 @@ def main():
 
     scraper.abrir_instagram()
 
-    usuarios = ["vincittaco", "foilcardsoficial", "arakinidi_airdunkini", "obarbeirodg"]
+    usuarios = ["alexandre_vsp", "mikavit_", "issinhaha", "pedro.fer7"]
 
     for user in usuarios:
         dados = scraper.get_profile_data(user)
