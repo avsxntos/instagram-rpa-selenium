@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait # vai esperar ate tudo c
 from selenium.webdriver.support import expected_conditions as EC #parecido com de cima, mas condição pra esperar
 
 
-class InstagramScraper: # classe do scraping
+class InstagramScraper: # classe do scraping melhor pra encapsular comportamento e manter sessões
     
     # metodo construtor 
     def __init__(self):
