@@ -2,7 +2,7 @@ from selenium import webdriver # importar selenium
 from selenium.webdriver.common.by import By # importa a classe que localizaa elementos
 from selenium.webdriver.chrome.service import Service # serviço que cuida do driver do chrome
 from webdriver_manager.chrome import ChromeDriverManager # baixar no automatico o driver do chrome, sem precisar ficar baixando manualmente e colocando no PATH
-from selenium.webdriver.support.ui import WebDriverWait # vai esperar ate tudo carregar pra rodar
+from selenium.webdriver.support.ui import WebDriverWait # vai esperar ate tudo carregar pra rodar, sugestao da internet.
 from selenium.webdriver.support import expected_conditions as EC #parecido com de cima, mas condição pra esperar
 
 
