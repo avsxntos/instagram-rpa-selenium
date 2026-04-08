@@ -38,7 +38,7 @@ def main():
 
     scraper.abrir_instagram() # abrir o insta
 
-    usuarios = ["nrtz_g"] # quais perfis que quero pegar os dados
+    usuarios = ["avsxntos", "nrtz_g", "nike", "cristiano", "sxmnsty"] # quais perfis que quero pegar os dados
 
     # for pra passar por cada perfil e pegar os dados, depois salvar no banco
     for user in usuarios:
